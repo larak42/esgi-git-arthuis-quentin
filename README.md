@@ -22,3 +22,6 @@ git push pour envoyer au serveur distant
 git pull pour recuperer sur le serveur distant
 rm pour supprimer un fichier
 mv pour renommer un fichier
+gpg --gen-key pour generer une clef privé pour pouvoir signer les commit
+git git config --global user.signingKey pour ajouter la clef 
+git commit -a -S -m 'commit signé' pour generer un commit signé  
